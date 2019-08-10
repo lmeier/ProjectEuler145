@@ -4,7 +4,7 @@ My solution to [problem 145 of Project Euler](https://projecteuler.net/problem=1
 
 A reversible number n is a number such n + reverse(n) consists entirely of odd digits. This problem asks for the number of such numbers below one billion.
 
-I solved this problem with Gomy very first time using the language.
+I solved this problem with Go--my very first time using the language.
 
 The solution is quite simple. One just needs to reverse a number, add it to the original, and check that all digits are odd, and then count such numbers through one billion. As Go is quite performant, this brute force solution is feasible.
 
